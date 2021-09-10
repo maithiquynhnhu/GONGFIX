@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+#footer{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    color:#000D24;
+}
+#footer div{
+    display: inline-block;
+    width: 30%;
+    padding-left: 1.5%;
+}
+#footer h4{
+    padding-left: 10%;
+    font-size: 25px;
+}
+#infomation p{
+    padding-left: 10%;
+    font-size: 18px;
+    font-weight: bold;
+}
+#infomation ul{
+    list-style: none;
+    padding-left: 10%;
+    margin: 0px;
+}
+#contact ul{
+    list-style: none;
+    position: relative;
+    top: -40px;
+    margin: 0px;
+}
+#contact ul li:first-child{
+    padding-left: 100px;
+}
+#contact ul li{
+    display: inline;
+    padding-left: 10px;
+    padding-right:10px;
+}
+#contact ul li img{
+    width: 50px;
+    height: 50px;
+    background-image: white;
+}
+#up-page{
+    text-align: center;
+    background-color: #000D24;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+

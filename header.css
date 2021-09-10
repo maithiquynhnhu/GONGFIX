@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    border: 0px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: #000D24;
+}
+#nav-line{
+    width: 60%;
+    float: left;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    margin-left: 30px;
+    background-image: url(img/LOGO-removebg-preview.png);
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+#menu{
+    float: right;
+}
+#menu ul{
+    list-style: none;
+    width: 700px;
+    padding: 0px;
+    margin: 0;
+}
+#menu ul li{
+    width: 15%;
+    display: inline-block;
+    color: white;
+    padding-right: 15px;
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+#menu ul li:hover{
+    background-color: #00235fbe;
+    box-shadow: 1px 1px 1px 1px #000D24;
+}
+#button-line{
+    width: 40%;
+    float: right;
+}
+/* Nút đăng nhập đăng ký */
+#button-line button:active{
+    -webkit-box-shadow: 0px 2px 0px #c47135, 0px 2px 2px #000000;
+  box-shadow: 0px 2px 0px #c47135, 0px 2px 2px #000000;
+  top: 2px;
+}
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {
+  background-color: #c47135;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  font-weight: 700;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.snip1582:before,
+.snip1582:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+.snip1582:before {
+  border-color: #c47135;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+.snip1582:after {
+  border-bottom-width: 2px;
+  border-color: #c47135;
+  bottom: -5px;
+  right: 0px;
+}
+
+.snip1582:hover,
+.snip1582.hover {
+  background-color: #c47135;
+}
+
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {
+  height: 100%;
+  width: 100%;
+}
+/* input search */
+#search{
+    width: 200px;
+    background-color: #000D24;
+    border: none;
+    outline:none;
+    color: white;
+    border-bottom:1px solid #ffffff;
+}
+#search::placeholder { /* chạy tốt trên Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.clear{
+    clear: both;
+}
+i{
+    color: white;
+}
